@@ -26,10 +26,50 @@ section {
     border-radius: 20px;
     background-color: white;
     overflow: hidden;
-    
+    text-align: center;    
 }
 .card-header {
     background-image: url(/Images/bg-pattern-card.svg);
     background-size: cover;
-    height: 150px;
+    height: 150px; 
+}
+.card-footer {
+    border-top: 1px solid hsl(0, 3%, 86%);
+    display: flex;
+    padding: 0 25px;   
+}   
+.card-footer .item {
+    flex: 1;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-holder {
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    border: 5px solid white;
+    overflow: hidden ;
+    margin: -50px auto 30px auto; 
+}
+.img-holder img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.name-age {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+.age,
+.city,
+.meta  {
+    font-weight: 400;
+    color: ;
+    opacity: .6;
+}
+.age {
+    font-weight: 400;
 }
